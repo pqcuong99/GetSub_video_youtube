@@ -9,7 +9,7 @@ from colorama import init, Fore, Style
 init()
 
 # Cấu hình API key cho Google Generative AI
-genai.configure(api_key="AIzaSyDCyskSi5HKiPoCM84ab6E7AxskmRPiHKc")
+genai.configure(api_key="")
 
 def get_video_id(url):
     pattern = r'(?:v=|\/)([0-9A-Za-z_-]{11}).*'
